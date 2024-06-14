@@ -16,6 +16,7 @@ package graphics
 
 const (
 	ShaderSrcImageCount = 4
+  // ShaderDstImageCount is the number of the destination images.
 	// The minimum guaranteed value for the number of target seems to be 8
 	// OpenGL(8): https://www.khronos.org/opengl/wiki/Framebuffer_Object#Framebuffer_Object_Structure
 	// DirectX11(8): https://learn.microsoft.com/en-us/windows/win32/direct3d11/d3d10-graphics-programming-guide-output-merger-stage#multiple-rendertargets-overview
